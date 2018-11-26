@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#535351df"
+            android:orientation="horizontal"
+            android:padding="15dp"
+            android:minHeight="30dp">
+        <TextView
+                android:id="@+id/id1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="12dp"
+                android:textSize="20dp"
+                android:textColor="#181a9e"
+                android:text="Nama  :"/>
+        <TextView
+                android:id="@+id/id2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="12dp"
+                android:textSize="20dp"
+                android:textColor="#181a9e"
+                android:text="sopian hariadi"/>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#f1f3f4"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:minHeight="30dp" android:layout_alignParentStart="true" android:layout_alignParentBottom="true"
+            android:layout_marginBottom="278dp" android:layout_marginStart="0dp">
+        <TextView
+                android:id="@+id/id3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="12dp"
+                android:textSize="20dp"
+                android:textColor="#181a9e"
+                android:text="Alamat :"/>
+        <TextView
+                android:id="@+id/id4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="12dp"
+                android:textSize="20dp"
+                android:textColor="#181a9e"
+                android:text="Kumbung Timur"/>
+
+        >
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#58b4ab"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:minHeight="30dp" android:layout_alignParentStart="true" android:layout_alignParentTop="true"
+            android:layout_marginTop="48dp" android:layout_marginStart="0dp">
+        <TextView
+                android:id="@+id/id5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="12dp"
+                android:textSize="20dp"
+                android:textColor="#181a9e"
+                android:text="NIM  :"/>
+        <TextView
+                android:id="@+id/id6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="12dp"
+                android:textSize="20dp"
+                android:textColor="#181a9e"
+                android:text="170202102"/>
+
+        >
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#79b672"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:minHeight="30dp" android:layout_alignParentStart="true" android:layout_alignParentTop="true"
+            android:layout_marginTop="95dp" android:layout_marginStart="0dp">
+        <TextView
+                android:id="@+id/id7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="12dp"
+                android:textSize="20dp"
+                android:textColor="#181a9e"
+                android:text="Prodi  : "/>
+        <TextView
+                android:id="@+id/id8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="12dp"
+                android:textSize="20dp"
+                android:textColor="#181a9e"
+                android:text="Tehnik Informatika"/>
+
+        >
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#986b1a17"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:minHeight="30dp" android:layout_alignParentStart="true" android:layout_alignParentTop="true"
+            android:layout_marginTop="141dp" android:layout_marginStart="0dp">
+        <TextView
+                android:id="@+id/id9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="12dp"
+                android:textSize="20dp"
+                android:textColor="#181a9e"
+                android:text="Kelas  :"/>
+        <TextView
+                android:id="@+id/id10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="12dp"
+                android:textSize="20dp"
+                android:textColor="#181a9e"
+                android:text="TI.C"/>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#bf34c2cc"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:minHeight="30dp" android:layout_alignParentStart="true" android:layout_alignParentTop="true"
+            android:layout_marginTop="234dp" android:layout_marginStart="0dp">
+        <TextView
+                android:id="@+id/id11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="12dp"
+                android:textSize="20dp"
+                android:textColor="#181a9e"
+                android:text="TTL  :"/>
+        <TextView
+                android:id="@+id/id12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="12dp"
+                android:textSize="20dp"
+                android:textColor="#181a9e"
+                android:text="kumbung timur 16 agystus 1998"
+                android:layout_marginBottom="12dp"/>
